@@ -1,4 +1,4 @@
-/* === Catppuccin Macchiato Override for Midnight (SAFE) === */
+/* === Catppuccin Macchiato+ for Midnight (SAFE) === */
 
 :root {
   /* === BACKGROUND === */
@@ -7,16 +7,16 @@
   --bg-2: #181926; /* crust */
   --bg-1: #1e2030;
 
-  /* === TEXT === */
+  /* === TEXT (slightly improved contrast) === */
   --text-1: #cad3f5;
-  --text-2: #cad3f5;
+  --text-2: #cdd6f4;
   --text-3: #b8c0e0;
   --text-4: #a5adcb;
-  --text-5: #6e738d;
+  --text-5: #8087a2;
 
-  /* === ACCENTS === */
+  /* === ACCENTS (more accurate Catppuccin feel) === */
   --accent-1: #8aadf4; /* blue */
-  --accent-2: #c6a0f6; /* mauve */
+  --accent-2: #b7bdf8; /* softer lavender */
   --accent-3: #f5bde6; /* pink */
 
   /* === STATUS COLORS === */
@@ -25,15 +25,15 @@
   --orange: #f5a97f;
   --red: #ed8796;
 
-  /* === INTERACTION === */
-  --hover: rgba(202, 211, 245, 0.08);
-  --active: rgba(202, 211, 245, 0.12);
-  --focus: rgba(138, 173, 244, 0.25);
+  /* === INTERACTION (better visibility) === */
+  --hover: rgba(202, 211, 245, 0.10);
+  --active: rgba(202, 211, 245, 0.16);
+  --focus: rgba(138, 173, 244, 0.35);
 
-  /* === BORDERS / DIVIDERS === */
-  --border: rgba(202, 211, 245, 0.08);
-  --divider: rgba(202, 211, 245, 0.06);
+  /* === BORDERS / DIVIDERS (cleaner separation) === */
+  --border: rgba(202, 211, 245, 0.10);
+  --divider: rgba(202, 211, 245, 0.08);
 
   /* === MISC === */
-  --shadow: rgba(0, 0, 0, 0.4);
+  --shadow: rgba(0, 0, 0, 0.45);
 }
