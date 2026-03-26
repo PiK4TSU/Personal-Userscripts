@@ -1,30 +1,39 @@
+/* === Catppuccin Macchiato Override for Midnight (SAFE) === */
+
 :root {
-  --bg-4: #24273a;
-  --bg-3: #1e2030;
-  --bg-2: #181926;
+  /* === BACKGROUND === */
+  --bg-4: #24273a; /* base */
+  --bg-3: #1e2030; /* mantle */
+  --bg-2: #181926; /* crust */
   --bg-1: #1e2030;
 
+  /* === TEXT === */
   --text-1: #cad3f5;
   --text-2: #cad3f5;
   --text-3: #b8c0e0;
   --text-4: #a5adcb;
   --text-5: #6e738d;
 
-  --accent-1: #8aadf4;
-  --accent-2: #c6a0f6;
-  --accent-3: #f5bde6;
+  /* === ACCENTS === */
+  --accent-1: #8aadf4; /* blue */
+  --accent-2: #c6a0f6; /* mauve */
+  --accent-3: #f5bde6; /* pink */
 
+  /* === STATUS COLORS === */
   --green: #a6da95;
   --yellow: #eed49f;
   --orange: #f5a97f;
   --red: #ed8796;
 
+  /* === INTERACTION === */
   --hover: rgba(202, 211, 245, 0.08);
   --active: rgba(202, 211, 245, 0.12);
   --focus: rgba(138, 173, 244, 0.25);
 
+  /* === BORDERS / DIVIDERS === */
   --border: rgba(202, 211, 245, 0.08);
   --divider: rgba(202, 211, 245, 0.06);
 
+  /* === MISC === */
   --shadow: rgba(0, 0, 0, 0.4);
 }
